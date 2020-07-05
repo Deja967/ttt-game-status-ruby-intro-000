@@ -33,6 +33,7 @@ def won?(board)
 
 def full?(board)
   if board.any? {|index| index == nil || index == " "}
+<<<<<<< HEAD
     return false
 else
     return true
@@ -61,4 +62,10 @@ def winner(board)
   if won?(board)
     return board[won?(board)[0]]
   end
+=======
+   return false
+ else
+   return true
+ end
+>>>>>>> 5e426423dd4e557b55cbf7ca8f64fd346fee018d
 end
